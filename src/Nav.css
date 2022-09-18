@@ -1,0 +1,53 @@
+.topnav {
+    overflow: hidden;
+    background-color: #403d39;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    z-index: 2;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 21px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.topnav a:hover {
+    background-color: #252422;
+    color: white;
+}
+
+.topnav .search-container {
+    float: right;
+    margin-right: 20px;
+}
+
+.topnav #home {
+    background: #b08968;
+}
+
+.topnav #home:hover {
+    background: #a17753;
+}
+
+@media screen and (max-width: 850px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+        border-radius: 0px;
+    }
+}
