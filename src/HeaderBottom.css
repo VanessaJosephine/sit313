@@ -1,0 +1,20 @@
+.container-bottom {
+    margin: 0 auto;
+    width: 60%;
+    background-color: #acc3a6b9;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-bottom {
+        width: 80%;
+    }
+}
+
+.bottom {
+    margin-bottom: 30px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 4vh;
+    background-color: #f4f1ec;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}

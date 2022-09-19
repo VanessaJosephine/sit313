@@ -1,0 +1,12 @@
+.post_container {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #b08968ba;
+}
+
+@media screen and (max-width: 600px) {
+    .post_container {
+        width: 80%;
+    }
+}
