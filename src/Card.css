@@ -103,3 +103,10 @@
 .product-links .icons:hover {
     color: darkred;
 }
+
+@media screen and (max-width: 600px) {
+    .product-card {
+        width: 80%;
+        height: auto;
+    }
+}
