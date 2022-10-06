@@ -81,7 +81,7 @@ const Question = () => {
             setComments(commentsArray);
         });
         return () => unsub();
-    }, []);
+    }, [id]);
 
     const [open, setOpen] = useState(false);
     const toggle = () => {
