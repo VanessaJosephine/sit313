@@ -72,7 +72,7 @@ const Question = () => {
     }
     const [comments, setComments] = useState([]);
     useEffect(() => {
-        const que = query(collection(db, 'questions', id, 'comments'));
+        const que = query(collection(db, 'questions', id.toString(), 'comments'));
         const unsub = onSnapshot(que, (querySnapshot) => {
             let commentsArray = [];
             querySnapshot.forEach((doc) => {
