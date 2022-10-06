@@ -1,0 +1,12 @@
+.notif {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #b08968ba;
+}
+
+@media screen and (max-width: 600px) {
+    .notif {
+        width: 80%;
+    }
+}

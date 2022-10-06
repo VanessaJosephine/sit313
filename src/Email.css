@@ -1,0 +1,23 @@
+.email-container {
+    background-color: #b08968;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.email-container #email {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 750px) {
+    .email-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        padding-bottom: 20px;
+    }
+    .email-container #email {
+        width: 80%;
+    }
+}
