@@ -6,8 +6,8 @@ function Profile() {
     const navigate = useNavigate();
     const onLogout = () => {
         signOut(auth);
-        document.location.reload();
         navigate("/");
+        document.location.reload();
     }
 
     const auth = getAuth();
