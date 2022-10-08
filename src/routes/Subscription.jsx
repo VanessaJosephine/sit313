@@ -15,14 +15,14 @@ function Subscription() {
     const checkoutOptions = {
         lineItems: [item],
         mode: "payment",
-        successUrl: `${window.location.origin}/success`,
-        cancelUrl: `${window.location.origin}/cancel`
+        successUrl: `${window.location.origin}`,
+        cancelUrl: `${window.location.origin}`
     };
 
     const redirectToCheckout = async () => {
         setLoading(true);
-        navigate("/success");
         setLoading(false);
+        navigate("/success");
     };
 
     const redirectToCheckout2 = async () => {
