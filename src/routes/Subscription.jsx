@@ -22,7 +22,7 @@ function Subscription() {
     const redirectToCheckout = async () => {
         setLoading(true);
         setLoading(false);
-        navigate("/success");
+        alert('Your transaction was successful! You are now subscribed!')
     };
 
     const redirectToCheckout2 = async () => {
