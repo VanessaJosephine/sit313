@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { loadStripe } from "@stripe/stripe-js";
 import { faker } from '@faker-js/faker';
-import { useNavigate } from 'react-router-dom';
 import '../Card.css';
 
 function Subscription() {
-    const navigate = useNavigate();
     const [stripeError, setStripeError] = useState(null);
     const [isLoading, setLoading] = useState(false);
     const item = {
